@@ -1,8 +1,9 @@
+import flow.ops.builder.FlowBuilder
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 
-fun main(args: Array<String>) = runBlocking {
-    startCountDown()
+fun main(args: Array<String>) {
+    FlowBuilder().demo()
 }
 
 fun startCountDown() {
